@@ -11,7 +11,9 @@ var wins = 0;
 
 var losses = 0;
 
+
 // Here, we give each crystal its own value, then console log to make sure that the numbers are between 1 and 12 inclusive.
+
 
 var ruby = Math.floor(Math.random() * 12) + 1;
 
