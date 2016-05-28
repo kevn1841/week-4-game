@@ -1,0 +1,96 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-image: url(../images/pattern.jpg);
+}
+
+#border {
+	border: 1px solid #990033;
+	margin: 10px;
+	width: 652px;
+	
+}
+
+#crystalsHeader {
+	font-size: 40px;
+	color: green;
+	background-color: #00FFFF;
+	width:380px;
+	text-align: center;
+	padding:10px;
+	margin-left: 15px;
+	margin-top: 15px;
+	border: 1px solid black;
+
+}
+
+#numberToMatch {
+	position: relative;
+	border:1px solid black;
+	margin-left:15px;
+	padding-bottom: 20px;
+	width: 145px;
+	font-size: 50px;
+	background-color: #E8E8E8;
+}
+
+#wins {
+	margin-left:15px;
+	border: 1px solid #D8D8D8;
+	width: 150px;
+	font-size: 30px;
+	background-color: #D8D8D8;
+}
+
+#losses {
+	margin-left:15px;
+	border: 1px solid #D8D8D8;
+	width: 150px;
+	font-size: 30px;
+	background-color: #D8D8D8;
+}
+
+#images {
+	margin-left:15px;
+}
+
+#ruby {
+	border: 1px solid black;
+	border-color: red;
+}
+
+#aqua {
+	border: 1px solid black;
+	border-color: blue;
+}
+
+#emerald {
+	border: 1px solid black;
+	border-color: green;
+}
+
+#diamond {
+	border: 1px solid black;
+	border-color:#9999CC;
+}
+
+#currentScore {
+	margin-left:15px;
+	border: 1px solid black;
+	font-size: 25px;
+	background-color: #A8A8A8;
+	width: 350px;
+	padding-bottom: 25px;
+}
+
+#updatingScore {
+	margin-left: 15px;
+	border: 1px solid black;
+	font-size: 30px;
+	background-color: #CCFFFF;
+	width: 100px;
+	padding-bottom: 25px;
+}
